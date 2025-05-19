@@ -1,4 +1,4 @@
-/* Subscribe button styles */
+/* Subscribe button styles (default/light mode) */
 .subscribe-btn {
     background-color: #007BFF;
     padding: 10px 20px;
@@ -10,36 +10,19 @@
   .subscribe-btn:hover {
     background-color: #0056b3;
   }
-/* Dark mode overrides */
-body {
-    background-color: #121212;
-    color: #eeeeee;
-  }
-  
-  .subscribe-btn {
-    background-color: #bb86fc;
-    color: #121212;
-  }
-  
-  .subscribe-btn:hover {
-    background-color: #9a67ea;
-  }
-    /* Subscribe button styles */
-.subscribe-btn {
-    background-color: #bb86fc;  /* dark theme override */
-    padding: 10px 20px;
-    color: #121212;  /* dark theme override */
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  .subscribe-btn:hover {
-    background-color: #9a67ea;
-  }
   
   /* Dark mode overrides */
   body {
     background-color: #121212;
     color: #eeeeee;
+  }
+  
+  /* Subscribe button styles overrides for dark mode */
+  .subscribe-btn {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  .subscribe-btn:hover {
+    background-color: #9a67ea;
   }
   
