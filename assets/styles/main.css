@@ -28,4 +28,9 @@ body {
 header {
     margin: 10px;
   }
-  
+  /* Footer widgets */
+.footer-widget {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 14px;
+}
