@@ -25,3 +25,7 @@ body {
 .subscribe-btn:hover {
     background-color: #9a67ea;
 }
+header {
+    margin: 10px;
+  }
+  
