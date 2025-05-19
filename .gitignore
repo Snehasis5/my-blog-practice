@@ -1,0 +1,13 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Build artifacts
+node_modules/
+dist/
+build/
+__pycache__/
+*.tmp
